@@ -1,0 +1,29 @@
+{
+  "name": "issue-db",
+  "version": "1.0.0",
+  "description": "Use GitHub Issues as a JSON datastore",
+  "main": "index.js",
+  "repository": "https://github.com/issue-db/issue-db",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv-safe": "^5.0.1",
+    "jest": "^22.4.3",
+    "make-promises-safe": "^1.1.0",
+    "standard": "^11.0.1",
+    "standard-markdown": "^4.0.2"
+  },
+  "scripts": {
+    "watch": "jest --watch --notify --notifyMode=change --coverage",
+    "test": "jest && standard --fix && standard-markdown"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.2.5",
+    "ellipsize": "^0.0.3"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
