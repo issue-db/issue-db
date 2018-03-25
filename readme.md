@@ -1,6 +1,6 @@
 # issue-db 
 
-Use GitHub Issues as a JSON datastore
+☁️ Use GitHub Issues as a JSON datastore
 
 ## Installation
 
@@ -21,6 +21,11 @@ const db = require('issue-db')({
 ## API
 
 All methods are async.
+
+- [`db.put(object)`](#dbputobject)
+- [`db.get(number)`](#dbgetnumber)
+- [`db.list()`](#dblist)
+- [`db.purge()`](#dbpurge)
 
 ### `db.put(object)`
 
