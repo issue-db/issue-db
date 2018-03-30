@@ -76,7 +76,7 @@ npm test
 - [jest](https://github.com/facebook/jest): Delightful JavaScript Testing.
 - [make-promises-safe](https://github.com/mcollina/make-promises-safe): Crash or abort if you get an unhandledRejection
 - [standard](https://github.com/standard/standard): JavaScript Standard Style
-- [standard-markdown](): Test your Markdown files for Standard JavaScript Style™
+- [standard-markdown](https://github.com/zeke/standard-markdown): Test your Markdown files for Standard JavaScript Style™
 
 
 ## License
