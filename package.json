@@ -1,6 +1,6 @@
 {
   "name": "issue-db",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Use GitHub Issues as a JSON datastore",
   "main": "index.js",
   "repository": "https://github.com/issue-db/issue-db",
@@ -11,11 +11,15 @@
     "jest": "^22.4.3",
     "make-promises-safe": "^1.1.0",
     "standard": "^11.0.1",
-    "standard-markdown": "^4.0.2"
+    "standard-markdown": "^4.0.2",
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.4"
   },
   "scripts": {
     "watch": "jest --watch --notify --notifyMode=change --coverage",
-    "test": "jest && standard --fix && standard-markdown"
+    "test": "jest && standard --fix && standard-markdown",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@octokit/rest": "^15.2.5",
