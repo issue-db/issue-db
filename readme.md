@@ -67,7 +67,7 @@ npm test
 
 ## Dependencies
 
-- [@octokit/rest](): GitHub REST API client for Node.js
+- [@octokit/rest](https://github.com/octokit/rest.js): GitHub REST API client for Node.js
 - [ellipsize](https://github.com/mvhenten/ellipsize): Ellipsizes a string at the nearest whitespace character near the end of allowed length
 
 ## Dev Dependencies
